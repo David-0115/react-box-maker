@@ -1,0 +1,43 @@
+.NewBoxForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.NewBoxForm-label {
+    margin-left: 2em;
+}
+
+.NewBoxForm-input {
+    width: 5em;
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+span {
+    display: inline-block;
+}
+
+.button-div {
+    position: relative;
+    top: 2.5em;
+    right: 20em;
+}
+
+.NewBoxForm-btn {
+    box-shadow: 0 2px #666;
+    width: 10em;
+    background-color: blue;
+    color: white;
+}
+
+.NewBoxForm-btn:hover {
+    box-shadow: 0 2px #666;
+    background-color: cornflowerblue;
+}
+
+.NewBoxForm-btn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}

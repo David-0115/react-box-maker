@@ -1,0 +1,8 @@
+.BoxList {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    top: 4em;
+}
